@@ -9,4 +9,5 @@ class Node {
 public:
 	Node* getNextNode();
 	Node* getPreviousNode();
+	Node* setNextNode();
 };
