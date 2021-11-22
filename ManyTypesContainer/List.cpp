@@ -4,7 +4,7 @@ void List::add(int value)
 {
 
 	Node* wokrikngNode = new Node(value);
-	if (size == 0)
+	if (size_ == 0)
 	{
 		head = wokrikngNode;
 		tail = wokrikngNode;
@@ -15,7 +15,7 @@ void List::add(int value)
 	tail->setNextNode(wokrikngNode);
 	wokrikngNode->setPreviousNode(tail);
 	tail = wokrikngNode;
-	size++;
+	size_++;
 }
 
 int List::front()
@@ -31,4 +31,10 @@ int List::back()
 void List::pop_back()
 {
 	tail = tail->getPreviousNode();
+	size_--;
+}
+
+int List::size()
+{
+	return size_;
 }

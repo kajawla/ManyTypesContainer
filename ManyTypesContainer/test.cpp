@@ -52,6 +52,23 @@ void Test::runTests()
 		std::cout << "checkIfPopingListReturnsCorrectTail is FAILLING \n";
 	}
 
+	if (checkIfReturnsCorrectSize())
+	{
+		std::cout << "checkIfReturnsCorrectSize is PASSING \n";
+	}
+	else
+	{
+		std::cout << "checkIfReturnsCorrectSize is FAILING \n";
+	}
+
+	if (checkIfAfterPopingAndAddingReturnsCorrectSize())
+	{
+		std::cout << "checkIfAfterPopingAndAddingReturnsCorrectSize is PASSING \n";
+	}
+	else
+	{
+		std::cout<< "checkIfAfterPopingAndAddingReturnsCorrectSize is FAILING \n";
+	}
 }
 
 bool Test::checkIfWhenAdd7ToListHeadIs7()
@@ -106,7 +123,34 @@ bool Test::checkIfPopingListReturnsCorrectTail()
 	list.add(7);
 	list.add(8);
 	list.pop_back();
-	if (list.front() == 7)
+	if (list.back() == 7)
+	{
+		return true;
+	}
+	return false;
+}
+
+bool Test::checkIfReturnsCorrectSize()
+{
+	List list;
+	list.add(1);
+	list.add(2);
+	list.add(3);
+	if (list.size() == 3)
+	{
+		return true;
+	}
+	return false;
+}
+
+bool Test::checkIfAfterPopingAndAddingReturnsCorrectSize()
+{
+	List list;
+	list.add(1);
+	list.add(2);
+	list.add(3);
+	list.pop_back();
+	if (list.size() == 2)
 	{
 		return true;
 	}

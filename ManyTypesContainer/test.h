@@ -13,6 +13,8 @@ public:
     bool checkIfAddTwoIntToListReturnsCorrectHead();
     bool checkIfAddTwoIntToListReturnsCorrectTail();
     bool checkIfPopingListReturnsCorrectTail();
+    bool checkIfReturnsCorrectSize();
+    bool checkIfAfterPopingAndAddingReturnsCorrectSize();
 private:
     Test() {};
     static Test* pointerToObject;

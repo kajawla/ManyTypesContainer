@@ -5,7 +5,7 @@ class List
 {
 	Node* head;
 	Node* tail;
-	int size=0;
+	int size_=0;
 
 
 public:
@@ -13,4 +13,5 @@ public:
 	int front();
 	int back();
 	void pop_back();
+	int size();
 };
