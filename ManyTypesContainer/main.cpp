@@ -1,7 +1,9 @@
 #include <iostream>
+#include "test.h"
 
 int main()
 {
-	std::cout << "Hello world";
-	return 0;
+	
+	Test* tests = Test::getInstance();
+	tests->runTests();
 }

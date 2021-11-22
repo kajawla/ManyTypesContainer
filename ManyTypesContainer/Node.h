@@ -7,7 +7,11 @@ class Node {
 	int value;
 
 public:
+	Node(int v) :value(v) {};
+
 	Node* getNextNode();
 	Node* getPreviousNode();
-	Node* setNextNode();
+	void setNextNode(Node* next);
+	void setPreviousNode(Node* previous);
+	int getVaule();
 };

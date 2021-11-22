@@ -1,23 +1,34 @@
 #include "List.h"
 
-Node* List::add(int value)
+void List::add(int value)
 {
-	
-	/* Node newNode;
-	* newNode.setValue(value);
+
+	Node* wokrikngNode = new Node(value);
 	if (size == 0)
 	{
-		head=*newNode;
-		tail=*newNode;
-
+		head = wokrikngNode;
+		tail = wokrikngNode;
+		head->setNextNode(tail);
+		tail->setPreviousNode(head);
 	}
 	else
+	tail->setNextNode(wokrikngNode);
+	wokrikngNode->setPreviousNode(tail);
+	tail = wokrikngNode;
+	size++;
+}
 
-	*tail.setNext(*newNode);
-	*newNode.setPrevious(tail);
-	tail=newNode;
+int List::front()
+{
+	return head->getVaule();
+}
 
-	Wygl¹da³oby to mniej-wiêcej tak, aczkolwiek zastanawiam siê czy nie bêdzie problemu z tym ¿e tak naprawde newNode jest automaczynie
-	niszczony po wyjœciu z loop'a. Œwita mi gdzieœ z ty³u g³owy dynamiczna alokacja, tylko muszê sie zastanowiæ jeszcze gdzie co i jak.
-	*/
+int List::back()
+{
+	return tail->getVaule();
+}
+
+void List::pop_back()
+{
+	tail = tail->getPreviousNode();
 }

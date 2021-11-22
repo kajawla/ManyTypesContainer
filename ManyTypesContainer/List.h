@@ -1,7 +1,6 @@
 #pragma once
 #include "Node.h"
 
-
 class List
 {
 	Node* head;
@@ -10,5 +9,8 @@ class List
 
 
 public:
-	Node* add(int value);
+	void add(int value);
+	int front();
+	int back();
+	void pop_back();
 };
