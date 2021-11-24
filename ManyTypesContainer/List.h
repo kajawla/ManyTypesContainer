@@ -1,7 +1,5 @@
 #pragma once
 #include "Node.h"
-<<<<<<< HEAD
-
 
 class List
 {
@@ -12,10 +10,10 @@ class List
 public:
 	Node* add(int value);
 
-=======
 #include "BlackNode.h"
 #include "RedNode.h"
 #include <iostream>
+
 class List
 {
 private:
@@ -34,5 +32,5 @@ public:
 	int size();
 	char getFrontType();
 	void sort();
->>>>>>> master
+
 };

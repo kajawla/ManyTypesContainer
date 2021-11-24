@@ -1,14 +1,14 @@
 #pragma once
 
-<<<<<<< HEAD
 class Node
 {
+private:
 	Node* nextNode;
 	Node* previousNode;
 	int value;
-=======
-class Node {
 
+
+public:
 	Node* nextNode;
 	Node* previousNode;
 	int value;
@@ -22,5 +22,5 @@ public:
 	virtual char getType() = 0;
 	virtual Node* getNextNode() = 0;
 
->>>>>>> master
+
 };

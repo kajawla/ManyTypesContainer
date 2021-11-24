@@ -1,9 +1,277 @@
-﻿  List.cpp
-D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.cpp(47,2): warning C5205: usunięcie klasy abstrakcyjnej „Node”, która ma destruktor inny niż wirtualny, powoduje niezdefiniowane zachowanie
-D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(3): message : zobacz deklarację „Node”
-D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.cpp(103,8): warning C4101: "handlerNode": lokalna zmienna, do której nie istnieje odwołanie
+﻿  BlackNode.cpp
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(12,8): error C2086: "Node *Node::nextNode": zmiana definicji
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(13,8): error C2086: "Node *Node::previousNode": zmiana definicji
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(14,6): error C2086: "int Node::value": zmiana definicji
+  List.cpp
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.cpp(1,1): error C2059: błąd składniowy: „<<”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(4,1): error C2143: błąd składniowy: brakuje „;” przed „{”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(4,1): error C2447: "{": brak nagłówka funkcji (stary styl formalnej listy?)
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(6,6): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(6,6): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(6,12): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(7,6): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(7,6): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(7,12): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(11,6): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(11,6): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(11,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(5,1): error C2504: „Node”: klasa bazowa niezdefiniowana
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(7,6): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(7,6): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(7,26): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(8,6): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(8,6): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(8,30): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(14,14): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(14,14): error C2433: "List::BlackNode::Node": "virtual" nie jest dozwolone w deklaracjach danych
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(14,14): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(14,38): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(15,6): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(15,6): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(15,34): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(16,19): error C2061: błąd składniowy: identyfikator „Node”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(17,23): error C2061: błąd składniowy: identyfikator „Node”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(16,7): error C3668: „List::BlackNode::setNextNode”: metoda ze specyfikatorem przesłonięcia „override” nie przesłania żadnej metody klasy bazowej
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(17,7): error C3668: „List::BlackNode::setPreviousNode”: metoda ze specyfikatorem przesłonięcia „override” nie przesłania żadnej metody klasy bazowej
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(18,6): error C3668: „List::BlackNode::getValue”: metoda ze specyfikatorem przesłonięcia „override” nie przesłania żadnej metody klasy bazowej
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\BlackNode.h(19,7): error C3668: „List::BlackNode::getType”: metoda ze specyfikatorem przesłonięcia „override” nie przesłania żadnej metody klasy bazowej
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(5,1): error C2504: „Node”: klasa bazowa niezdefiniowana
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(7,6): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(7,6): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(7,26): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(8,6): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(8,6): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(8,30): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(14,14): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(14,14): error C2433: "List::RedNode::Node": "virtual" nie jest dozwolone w deklaracjach danych
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(14,14): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(14,38): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(15,6): error C2143: błąd składniowy: brakuje „;” przed „*”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(15,6): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(15,25): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(16,19): error C2061: błąd składniowy: identyfikator „Node”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\RedNode.h(17,23): error C2061: błąd składniowy: identyfikator „Node”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\sal.h(2361,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\sal.h(2361,12): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\concurrencysal.h(22,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\concurrencysal.h(22,12): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vadefs.h(51,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vadefs.h(51,12): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vadefs.h(171,12): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vadefs.h(172,5): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime.h(96,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime.h(96,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\limits.h(16,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\limits.h(16,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(77,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(77,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime_new.h(17,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime_new.h(17,14): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime_new_debug.h(16,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime_new_debug.h(16,14): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h(19,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h(19,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(135,9): warning C4384: #pragma "detect_mismatch" powinna być użyta jedynie w zakresie globalnym
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(139,9): warning C4384: #pragma "detect_mismatch" powinna być użyta jedynie w zakresie globalnym
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(150,9): warning C4384: #pragma "detect_mismatch" powinna być użyta jedynie w zakresie globalnym
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(341,1): error C2059: błąd składniowy: „namespace”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(341,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(18,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(18,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h(17,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h(17,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(18,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(18,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h(20,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h(20,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h(17,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h(17,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(22,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(22,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdlib(35,1): error C2059: błąd składniowy: „namespace”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdlib(35,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtr1common(19,1): error C2059: błąd składniowy: „namespace”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtr1common(19,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\intrin0.h(23,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\intrin0.h(23,12): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(557,1): error C2059: błąd składniowy: „namespace”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(557,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(565,27): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(565,10): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(565,62): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(565,62): error C2059: błąd składniowy: „,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(566,77): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,10): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,1): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,49): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,49): error C2059: błąd składniowy: „&&”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,57): error C2039: „is_arithmetic_v”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,87): error C2039: „is_arithmetic_v”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(573,17): error C2039: „_Common_float_type_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(573,49): error C2039: „_Common_float_type_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(574,72): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,40): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,10): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,79): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,79): error C2059: błąd składniowy: „&&”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,87): error C2039: „is_arithmetic_v”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(587,6): error C2039: „_Common_float_type_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(587,111): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(640,1): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(640,1): fatal error C1003: Licznik błędów przekracza 100; zatrzymywanie kompilacji
+  main.cpp
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(12,8): error C2086: "Node *Node::nextNode": zmiana definicji
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(13,8): error C2086: "Node *Node::previousNode": zmiana definicji
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(14,6): error C2086: "int Node::value": zmiana definicji
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(18,1): error C3769: "List": zagnieżdżona klasa nie może mieć taką samą nazwę jako natychmiastowo otaczającą klasę
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.h(36,2): error C3769: "List": zagnieżdżona klasa nie może mieć taką samą nazwę jako natychmiastowo otaczającą klasę
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\main.cpp(16,1): error C2059: błąd składniowy: „==”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\main.cpp(18,35): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\main.cpp(19,7): error C3927: „->”: nie można używać końcowego typu zwracanego po deklaratorze niebędącym funkcją
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\main.cpp(19,9): error C3613: brak typu zwracanego po „->” (przyjęto typ „int”)
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\main.cpp(19,9): error C3646: "runTests": nieznany specyfikator przesłonięcia
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\main.cpp(19,17): error C2059: błąd składniowy: „(”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\main.cpp(19,19): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\main.cpp(21,1): error C2059: błąd składniowy: „>>”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\main.cpp(6,1): error C2059: błąd składniowy: „<<”
+  Node.cpp
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.cpp : fatal error C1041: nie można otworzyć bazy danych programu 'D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Debug\vc142.idb'; jeśli wiele CL.exe zapisuje do tego samego pliku .PDB, użyj /FS
+  RedNode.cpp
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(12,8): error C2086: "Node *Node::nextNode": zmiana definicji
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(13,8): error C2086: "Node *Node::previousNode": zmiana definicji
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(14,6): error C2086: "int Node::value": zmiana definicji
   test.cpp
-D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\test.cpp(145,51): warning C4554: „&”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
-D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\test.cpp(160,49): warning C4554: „&”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(12,8): error C2086: "Node *Node::nextNode": zmiana definicji
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(13,8): error C2086: "Node *Node::previousNode": zmiana definicji
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(14,6): error C2086: "int Node::value": zmiana definicji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\sal.h(2361,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\sal.h(2361,12): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\concurrencysal.h(22,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\concurrencysal.h(22,12): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vadefs.h(51,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vadefs.h(51,12): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vadefs.h(171,12): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vadefs.h(172,5): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime.h(96,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime.h(96,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\limits.h(16,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\limits.h(16,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(77,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(77,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime_new.h(17,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime_new.h(17,14): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime_new_debug.h(16,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime_new_debug.h(16,14): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h(19,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h(19,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(135,9): warning C4384: #pragma "detect_mismatch" powinna być użyta jedynie w zakresie globalnym
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(139,9): warning C4384: #pragma "detect_mismatch" powinna być użyta jedynie w zakresie globalnym
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(150,9): warning C4384: #pragma "detect_mismatch" powinna być użyta jedynie w zakresie globalnym
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(341,1): error C2059: błąd składniowy: „namespace”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\yvals.h(341,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(18,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(18,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h(17,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h(17,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(18,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(18,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h(20,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h(20,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h(17,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h(17,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(22,1): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(22,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdlib(35,1): error C2059: błąd składniowy: „namespace”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdlib(35,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtr1common(19,1): error C2059: błąd składniowy: „namespace”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xtr1common(19,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\intrin0.h(23,8): error C2059: błąd składniowy: „ciąg”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\intrin0.h(23,12): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(557,1): error C2059: błąd składniowy: „namespace”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(557,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(565,27): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(565,10): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(565,62): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(565,62): error C2059: błąd składniowy: „,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(566,77): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,10): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,1): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,49): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,49): error C2059: błąd składniowy: „&&”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,57): error C2039: „is_arithmetic_v”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(572,87): error C2039: „is_arithmetic_v”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(573,17): error C2039: „_Common_float_type_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(573,49): error C2039: „_Common_float_type_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(574,72): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,40): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,10): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,79): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,79): error C2059: błąd składniowy: „&&”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(586,87): error C2039: „is_arithmetic_v”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(587,6): error C2039: „_Common_float_type_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(587,111): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(640,1): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(640,1): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(640,1): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(640,1): error C2059: błąd składniowy: „,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(640,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(641,1): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(641,1): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(641,1): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(641,1): error C2059: błąd składniowy: „,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(641,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(642,1): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(642,1): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(642,1): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(642,1): error C2059: błąd składniowy: „,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(642,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(643,1): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(643,1): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(643,1): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(643,1): error C2059: błąd składniowy: „&&”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(643,1): error C2039: „is_arithmetic_v”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(643,1): error C2039: „_Common_float_type_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(643,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(644,1): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(644,1): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(644,1): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(644,1): error C2059: błąd składniowy: „,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(644,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(645,1): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(645,1): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(645,1): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(645,1): error C2059: błąd składniowy: „,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(645,1): error C2334: nieoczekiwany(e) token(y) poprzedzające "{"; pomijanie treści widocznych funkcji
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(646,1): error C2039: „enable_if_t”: nie jest składową elementu „std”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\predefined C++ types (compiler internal)(340): message : zobacz deklarację „std”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(646,1): error C2061: błąd składniowy: identyfikator „enable_if_t”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(646,1): error C2988: nierozpoznana deklaracja/definicja szablonu
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cmath(646,1): fatal error C1003: Licznik błędów przekracza 100; zatrzymywanie kompilacji
   Generowanie kodu...
-  ManyTypesContainer.vcxproj -> D:\projekty\ManyTypesContainer\ManyTypesContainer\Debug\ManyTypesContainer.exe
