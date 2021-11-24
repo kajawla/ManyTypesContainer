@@ -1,0 +1,9 @@
+﻿  List.cpp
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.cpp(47,2): warning C5205: usunięcie klasy abstrakcyjnej „Node”, która ma destruktor inny niż wirtualny, powoduje niezdefiniowane zachowanie
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\Node.h(3): message : zobacz deklarację „Node”
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\List.cpp(103,8): warning C4101: "handlerNode": lokalna zmienna, do której nie istnieje odwołanie
+  test.cpp
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\test.cpp(145,51): warning C4554: „&”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
+D:\projekty\ManyTypesContainer\ManyTypesContainer\ManyTypesContainer\test.cpp(160,49): warning C4554: „&”: Sprawdź pierwszeństwo operatorów w poszukiwaniu możliwego błędu; użyj nawiasów, aby ujednoznacznić pierwszeństwo
+  Generowanie kodu...
+  ManyTypesContainer.vcxproj -> D:\projekty\ManyTypesContainer\ManyTypesContainer\Debug\ManyTypesContainer.exe
