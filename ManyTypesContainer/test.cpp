@@ -6,7 +6,7 @@
 Test* Test::pointerToObject = nullptr;
 
 void Test::runTests()
-{
+{/*
 	if (checkIfWhenAdd7ToListHeadIs7())
 	{
 		std::cout << "checkIfWhenAdd7ToListHeadIs7 is PASSING \n";
@@ -69,8 +69,141 @@ void Test::runTests()
 	{
 		std::cout<< "checkIfAfterPopingAndAddingReturnsCorrectSize is FAILING \n";
 	}
+
+	if (checkIfUsedFrontReturnsNullptr())
+	{
+		std::cout << "checkIfUsedFrontReturnsNullptr is PASSING \n";
+	}
+	else
+	{
+		std::cout << "checkIfUsedFrontReturnsNullptr is FAILING \n";
+	}
+
+	if (checkIfGivenRedNodeAndBlackNodeListSizeEQTwo())
+	{
+		std::cout << "checkIfGivenRedNodeAndBlackNodeListSizeEQTwo is PASSING \n";
+	}
+	else
+	{
+		std::cout << "checkIfGivenRedNodeAndBlackNodeListSizeEQTwo is FAILING \n";
+	}
+	*/
+	if (checkIfGivenRedNodeStoresRedNode())
+	{
+		std::cout << "checkIfGivenRedNodeStoresRedNode is PASSING \n";
+	}
+	else
+	{
+		std::cout << "checkIfGivenRedNodeStoresRedNode is FAILING \n";
+	}
+
+	if (checkIfWhenGivenRedNodeGetFrontTypeReturnsCorrectType())
+	{
+		std::cout << "checkIfWhenGivenRedNodeGetFrontTypeReturnsCorrectType is PASSING \n";
+	}
+	else
+	{
+		std::cout << "checkIfWhenGivenRedNodeGetFrontTypeReturnsCorrectType is FAILING \n";
+	}
+
+	if (checkIfGivenBlackAndRedSortsCorrectly())
+	{
+		std::cout << "checkIfGivenBlackAndRedSortsCorrectly is PASSING \n";
+	}
+	else
+	{
+		std::cout << "checkIfGivenBlackAndRedSortsCorrectly is FAILING \n";
+	}
+
+	if (checkIfGivenBlackRedBlackSortsCorrectly())
+	{
+		std::cout << "checkIfGivenBlackRedBlackSortsCorrectly() is PASSING \n";
+	}
+	else
+	{
+		std::cout << "checkIfGivenBlackRedBlackSortsCorrectly() is FAILING \n";
+	}
+
+	if (checkIfGivenkRedBlackRedSortsCorrectly())
+	{
+		std::cout << "checkIfGivenkRedBlackRedSortsCorrectly is PASSING \n";
+	}
+	else
+	{
+		std::cout << "checkIfGivenkRedBlackRedSortsCorrectly is FAILING \n";
+	}
 }
 
+bool Test::checkIfGivenkRedBlackRedSortsCorrectly()
+{
+	List list;
+	list.addRed(1);
+	list.addBlack(2);
+	list.addRed(3);
+	list.sort();
+	
+	if (list.getFrontType() == 'r' & list.back() == 2)
+	{
+		return true;
+	}
+	return false;
+}
+
+bool Test::checkIfGivenBlackRedBlackSortsCorrectly()
+{
+	List list;
+	list.addBlack(1);
+	list.addRed(2);
+	list.addBlack(3);
+	list.sort();
+	
+	if (list.getFrontType() == 'r' & list.back()==1)
+	{
+		return true;
+	}
+	return false;
+}
+
+bool Test::checkIfGivenBlackAndRedSortsCorrectly()
+{
+	List list;
+	list.addBlack(1);
+	list.addRed(2);
+	list.sort();
+	
+	if (list.getFrontType() == 'r')
+	{
+		return true;
+	}
+	return false;
+}
+
+bool Test::checkIfWhenGivenRedNodeGetFrontTypeReturnsCorrectType()
+{
+	List list;
+	list.addRed(1);
+	
+	if (list.getFrontType() == 'r')
+	{
+		return true;
+	}
+	return false;
+}
+
+bool Test::checkIfGivenRedNodeStoresRedNode()
+{
+	List list;
+	list.addRed(1);
+	list.addBlack(2);
+	if (list.front() == 1
+		&& list.back() == 2
+		&& list.size() == 2)
+	{
+		return true;
+	}
+	return false;
+}
+/*
 bool Test::checkIfWhenAdd7ToListHeadIs7()
 {
 	List list;
@@ -157,6 +290,28 @@ bool Test::checkIfAfterPopingAndAddingReturnsCorrectSize()
 	return false;
 }
 
+bool Test::checkIfUsedFrontReturnsNullptr()
+{
+	List list;
+
+	if (list.front()==0)
+	{
+		return true;
+	}
+	return false;
+}
+bool Test::checkIfGivenRedNodeAndBlackNodeListSizeEQTwo()
+{
+	List list;
+	list.add(1);
+	list.add(2);
+	if (list.size() == 2)
+	{
+		return true;
+	}
+	return false;
+}
+*/
 Test* Test::getInstance()
 {
 	if (pointerToObject == nullptr)

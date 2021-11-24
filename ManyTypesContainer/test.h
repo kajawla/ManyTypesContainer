@@ -15,6 +15,13 @@ public:
     bool checkIfPopingListReturnsCorrectTail();
     bool checkIfReturnsCorrectSize();
     bool checkIfAfterPopingAndAddingReturnsCorrectSize();
+    bool checkIfUsedFrontReturnsNullptr();
+    bool checkIfGivenRedNodeAndBlackNodeListSizeEQTwo();
+    bool checkIfGivenRedNodeStoresRedNode();
+    bool checkIfWhenGivenRedNodeGetFrontTypeReturnsCorrectType();
+    bool checkIfGivenBlackAndRedSortsCorrectly();
+    bool checkIfGivenBlackRedBlackSortsCorrectly();
+    bool checkIfGivenkRedBlackRedSortsCorrectly();
 private:
     Test() {};
     static Test* pointerToObject;

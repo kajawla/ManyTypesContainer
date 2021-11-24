@@ -5,13 +5,14 @@ class Node {
 	Node* nextNode;
 	Node* previousNode;
 	int value;
+	char type;
 
 public:
-	Node(int v) :value(v) {};
+	virtual Node* getPreviousNode() = 0;
+	virtual void setNextNode(Node* next) = 0;
+	virtual void setPreviousNode(Node* previous) = 0;
+	virtual int getValue() = 0;
+	virtual char getType() = 0;
+	virtual Node* getNextNode() = 0;
 
-	Node* getNextNode();
-	Node* getPreviousNode();
-	void setNextNode(Node* next);
-	void setPreviousNode(Node* previous);
-	int getVaule();
 };
