@@ -3,11 +3,14 @@
 class Node
 {
 private:
-	Node* nextNode;
-	Node* previousNode;
-	int value;
+	Node* nextNode = nullptr;
+	Node* previousNode = nullptr;
+	int value = 0;
 
 public:
+	Node() {};
+	Node(int value) : value(value) {};
+	virtual ~Node() {};
 	virtual Node* getPreviousNode() = 0;
 	virtual void setNextNode(Node* next) = 0;
 	virtual void setPreviousNode(Node* previous) = 0;

@@ -9,6 +9,7 @@ void RedNode::setNextNode(Node* next)
 {
 	nextNode = next;
 }
+
 void RedNode::setPreviousNode(Node* previous)
 {
 	previousNode = previous;

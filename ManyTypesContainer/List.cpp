@@ -1,27 +1,6 @@
+#include "List.h"
+#include "List.h"
 
-#include "List.h"
-#include "List.h"
-/*
-void List::add(int value)
-{
-	Node* wokrikngNode = new Node(value);
-	if (size_ == 0)
-	{
-		head = wokrikngNode;
-		tail = wokrikngNode;
-		head->setNextNode(tail);
-		tail->setPreviousNode(head);
-		size_++;
-	}
-	else
-	{
-		tail->setNextNode(wokrikngNode);
-		wokrikngNode->setPreviousNode(tail);
-		tail = wokrikngNode;
-		size_++;
-	}
-}
-*/
 int List::front()
 {
 	if(head)
@@ -102,7 +81,6 @@ char List::getFrontType()
 void List::sort()
 {
 	Node* workingNode = head;
-	Node* handlerNode;
 	for(int i=0;i<size_-1;i++)
 	{
 		if (workingNode->getType() == 'b' && workingNode == head)

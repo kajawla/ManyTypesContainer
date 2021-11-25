@@ -132,6 +132,28 @@ void Test::runTests()
 	{
 		std::cout << "checkIfGivenkRedBlackRedSortsCorrectly is FAILING \n";
 	}
+
+	if (addOneRedNodeandPopBack())
+	{
+		std::cout << "addOneRedNodeandPopBack is PASSING \n";
+	}
+	else
+	{
+		std::cout << "addOneRedNodeandPopBack is FAILING \n";
+	}
+}
+
+bool Test::addOneRedNodeandPopBack()
+{
+	List list;
+	list.addRed(1);
+	list.pop_back();
+
+	if (list.size() == 0)
+	{
+		return true;
+	}
+	return false;
 }
 
 bool Test::checkIfGivenkRedBlackRedSortsCorrectly()
@@ -142,7 +164,7 @@ bool Test::checkIfGivenkRedBlackRedSortsCorrectly()
 	list.addRed(3);
 	list.sort();
 	
-	if (list.getFrontType() == 'r' & list.back() == 2)
+	if (list.getFrontType() == 'r' && list.back() == 2)
 	{
 		return true;
 	}
@@ -157,7 +179,7 @@ bool Test::checkIfGivenBlackRedBlackSortsCorrectly()
 	list.addBlack(3);
 	list.sort();
 	
-	if (list.getFrontType() == 'r' & list.back()==1)
+	if (list.getFrontType() == 'r' && list.back()==1)
 	{
 		return true;
 	}

@@ -22,6 +22,7 @@ public:
     bool checkIfGivenBlackAndRedSortsCorrectly();
     bool checkIfGivenBlackRedBlackSortsCorrectly();
     bool checkIfGivenkRedBlackRedSortsCorrectly();
+    bool addOneRedNodeandPopBack();
 private:
     Test() {};
     static Test* pointerToObject;
