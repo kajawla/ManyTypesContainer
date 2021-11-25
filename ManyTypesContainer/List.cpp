@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 #include "List.h"
-=======
 #include "List.h"
 /*
 void List::add(int value)
@@ -133,4 +132,4 @@ void List::sort()
 		}
 	}
 }
->>>>>>> master
+

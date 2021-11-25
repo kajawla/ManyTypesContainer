@@ -7,13 +7,6 @@ private:
 	Node* previousNode;
 	int value;
 
-
-public:
-	Node* nextNode;
-	Node* previousNode;
-	int value;
-	char type;
-
 public:
 	virtual Node* getPreviousNode() = 0;
 	virtual void setNextNode(Node* next) = 0;
